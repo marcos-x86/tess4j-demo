@@ -25,6 +25,7 @@ public final class TesseractReader {
             return tesseract.doOCR(image);
         } catch (TesseractException e) {
             e.printStackTrace("Employee A Message");
+            e.printStackTrace("New string added by EmployeeB");
         }
         return EMPTY_STRING;
     }
